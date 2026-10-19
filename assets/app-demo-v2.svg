@@ -1,0 +1,36 @@
+<svg width="900" height="480" viewBox="0 0 900 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <style><![CDATA[
+      .bob { animation: bob 3.6s ease-in-out infinite; }
+      .pulse { animation: pulse 2.2s ease-in-out infinite alternate; }
+      @keyframes bob { 0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)} }
+      @keyframes pulse { 0%{opacity:0.6}100%{opacity:1} }
+    ]]></style>
+  </defs>
+
+  <rect width="900" height="480" rx="20" fill="#071025"/>
+  <circle cx="720" cy="110" r="110" fill="#7c3aed" opacity="0.12"/>
+  <g class="bob">
+    <rect x="96" y="64" width="320" height="352" rx="28" fill="#07182a" stroke="#123141"/>
+    <rect x="140" y="106" width="240" height="140" rx="20" fill="url(#bg)" opacity="0.18"/>
+    <circle cx="190" cy="170" r="18" fill="#06b6d4"/>
+    <rect x="246" y="160" width="120" height="12" rx="6" fill="#eaf6ff"/>
+    <rect x="140" y="270" width="240" height="20" rx="10" fill="#dbeafe" opacity="0.9"/>
+    <rect x="140" y="304" width="180" height="12" rx="6" fill="#dbeafe" opacity="0.7"/>
+  </g>
+
+  <g>
+    <rect x="460" y="110" width="320" height="290" rx="20" fill="#07182a" stroke="#123141"/>
+    <rect x="500" y="146" width="260" height="14" rx="7" fill="#e6f6ff"/>
+    <rect x="500" y="186" width="220" height="12" rx="6" fill="#06b6d4" opacity="0.9"/>
+    <rect x="500" y="212" width="180" height="12" rx="6" fill="#dbeafe" opacity="0.75"/>
+    <rect x="500" y="238" width="160" height="12" rx="6" fill="#dbeafe" opacity="0.55"/>
+    <rect x="540" y="292" width="120" height="18" rx="9" fill="#34d399" opacity="0.95"/>
+  </g>
+
+  <text x="96" y="440" fill="#dff3ff" font-size="26" font-family="Inter, Arial, sans-serif" font-weight="700">app.mrmobiles — AI Telegram mini app</text>
+</svg>
