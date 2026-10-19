@@ -1,0 +1,29 @@
+<svg width="900" height="480" viewBox="0 0 900 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34d399"/><stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <style><![CDATA[
+      .sway { animation: sway 3.8s ease-in-out infinite; }
+      @keyframes sway { 0%,100%{transform:translateX(0)}50%{transform:translateX(-8px)} }
+    ]]></style>
+  </defs>
+
+  <rect width="900" height="480" rx="20" fill="#06111a"/>
+  <g filter="">
+    <circle cx="160" cy="120" r="92" fill="#0ea5e9" opacity="0.08"/>
+    <circle cx="720" cy="340" r="110" fill="#34d399" opacity="0.06"/>
+  </g>
+
+  <g class="sway">
+    <rect x="120" y="96" width="660" height="288" rx="28" fill="#0b1a25" stroke="#193343"/>
+    <rect x="160" y="136" width="200" height="200" rx="24" fill="url(#lg)" opacity="0.14"/>
+    <circle cx="260" cy="236" r="36" fill="#34d399"/>
+    <rect x="420" y="156" width="320" height="18" rx="9" fill="#e6f6ff"/>
+    <rect x="420" y="192" width="260" height="12" rx="6" fill="#dbeafe" opacity="0.9"/>
+    <rect x="420" y="220" width="220" height="12" rx="6" fill="#dbeafe" opacity="0.7"/>
+    <rect x="420" y="260" width="180" height="18" rx="9" fill="#06b6d4" />
+  </g>
+
+  <text x="120" y="448" fill="#dffcf2" font-size="26" font-family="Inter, Arial, sans-serif" font-weight="700">mrmobiles-telegram-bot — automation & booking</text>
+</svg>
